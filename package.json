@@ -10,7 +10,8 @@
   },
   "dependencies": {
     "react": "^17.0.0",
-    "react-dom": "^17.0.0"
+    "react-dom": "^17.0.0",
+    "securelog-rsc": "^1.0.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.0",
