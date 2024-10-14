@@ -20,7 +20,7 @@ export const HomeComponent = (props: any) => {
       };
 
       try {
-        fetch("http://localhost:3000/send-slack-message", {
+        fetch("https://api.securelog.com/send-slack-message", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
