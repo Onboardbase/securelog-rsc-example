@@ -64,7 +64,7 @@ export const HomeComponent = (props: any) => {
 };
 
 const App = () => (
-  <div>
+  <div className="bg-black">
     <h1>SecureLog React Component</h1>
     <HomeComponent />
   </div>
