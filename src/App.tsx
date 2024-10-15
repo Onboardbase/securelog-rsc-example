@@ -62,11 +62,11 @@ export const HomeComponent = (props: any) => {
 				<li>Secret masking is enabled for this secret hence why you can't see the
         secret value.</li>
 				<li>
-        This test app sends any secret found to an API that sends the
-        secret to our public slack <span className="text-white"> securelog-rsc-notifications channel</span>. This is just an example of a good
-        usecase for this component message.
+          This test app sends any secret found to an API that sends the
+          secret to our public slack <a href="https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw" className="text-[#F5BE58]"> securelog-rsc-notifications</a> channel. This is just an example of a good
+          usecase for this component message.
         </li>
-        <li>Join us on <a href="#https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw" className="text-[#F5BE58]" target="_blank">slack</a>.</li>
+        {/* <li>Join us on <a href="https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw" className="text-[#F5BE58]" target="_blank">slack</a>.</li> */}
 			</ol>
     </SecureLog>
   );
@@ -74,9 +74,9 @@ export const HomeComponent = (props: any) => {
 
 const App = () => (
   <div className="relative flex flex-col p-8 sm:p-20">
-    <h1 className="text-3xl font-semibold mb-6">Securelog RSC Test</h1>
+    <h1 className="text-3xl font-semibold mb-6">✨ Securelog RSC Test</h1>
     <HomeComponent />
-    <div className="text-gray-400 mt-10">
+    <div className="text-gray-400 mt-10 space-y-3 w-full">
       <a
         className="flex items-center gap-2 hover:underline text-sm"
         href="https://securelog.com"
@@ -94,6 +94,42 @@ const App = () => (
           />
         </svg>
         Go to securelog.com →
+      </a>
+      <a
+        className="flex items-center gap-2 hover:underline text-sm"
+        href="https://github.com/Onboardbase/securelog-rsc-example"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg
+					aria-label="github"
+					viewBox="0 0 14 14"
+					className="h-3.5 w-3.5"
+					fill="currentColor"
+				>
+					<path
+						d="M7 .175c-3.872 0-7 3.128-7 7 0 3.084 2.013 5.71 4.79 6.65.35.066.482-.153.482-.328v-1.181c-1.947.415-2.363-.941-2.363-.941-.328-.81-.787-1.028-.787-1.028-.634-.438.044-.416.044-.416.7.044 1.071.722 1.071.722.635 1.072 1.641.766 2.035.59.066-.459.24-.765.437-.94-1.553-.175-3.193-.787-3.193-3.456 0-.766.262-1.378.721-1.881-.065-.175-.306-.897.066-1.86 0 0 .59-.197 1.925.722a6.754 6.754 0 0 1 1.75-.24c.59 0 1.203.087 1.75.24 1.335-.897 1.925-.722 1.925-.722.372.963.131 1.685.066 1.86.46.48.722 1.115.722 1.88 0 2.691-1.641 3.282-3.194 3.457.24.219.481.634.481 1.29v1.926c0 .197.131.415.481.328C11.988 12.884 14 10.259 14 7.175c0-3.872-3.128-7-7-7z"
+						fill="currentColor"
+						fill-rule="evenodd"
+					></path>
+				</svg>
+        View on github →
+      </a>
+      <a
+        className="flex items-center gap-2 hover:underline text-sm"
+        href="https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw"
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        <svg enable-background="new 0 0 2447.6 2452.5" viewBox="0 0 2447.6 2452.5" fill="currentColor" xmlns="http://www.w3.org/2000/svg" className="h-3.5 w-3.5">
+          <g clip-rule="evenodd" fill-rule="evenodd">
+            <path d="m897.4 0c-135.3.1-244.8 109.9-244.7 245.2-.1 135.3 109.5 245.1 244.8 245.2h244.8v-245.1c.1-135.3-109.5-245.1-244.9-245.3.1 0 .1 0 0 0m0 654h-652.6c-135.3.1-244.9 109.9-244.8 245.2-.2 135.3 109.4 245.1 244.7 245.3h652.7c135.3-.1 244.9-109.9 244.8-245.2.1-135.4-109.5-245.2-244.8-245.3z" class="astro-3SDC4Q5U"></path>
+            <path d="m2447.6 899.2c.1-135.3-109.5-245.1-244.8-245.2-135.3.1-244.9 109.9-244.8 245.2v245.3h244.8c135.3-.1 244.9-109.9 244.8-245.3zm-652.7 0v-654c.1-135.2-109.4-245-244.7-245.2-135.3.1-244.9 109.9-244.8 245.2v654c-.2 135.3 109.4 245.1 244.7 245.3 135.3-.1 244.9-109.9 244.8-245.3z" class="astro-3SDC4Q5U"></path>
+            <path d="m1550.1 2452.5c135.3-.1 244.9-109.9 244.8-245.2.1-135.3-109.5-245.1-244.8-245.2h-244.8v245.2c-.1 135.2 109.5 245 244.8 245.2zm0-654.1h652.7c135.3-.1 244.9-109.9 244.8-245.2.2-135.3-109.4-245.1-244.7-245.3h-652.7c-135.3.1-244.9 109.9-244.8 245.2-.1 135.4 109.4 245.2 244.7 245.3z" class="astro-3SDC4Q5U"></path>
+            <path d="m0 1553.2c-.1 135.3 109.5 245.1 244.8 245.2 135.3-.1 244.9-109.9 244.8-245.2v-245.2h-244.8c-135.3.1-244.9 109.9-244.8 245.2zm652.7 0v654c-.2 135.3 109.4 245.1 244.7 245.3 135.3-.1 244.9-109.9 244.8-245.2v-653.9c.2-135.3-109.4-245.1-244.7-245.3-135.4 0-244.9 109.8-244.8 245.1 0 0 0 .1 0 0" class="astro-3SDC4Q5U"></path>
+          </g>
+        </svg>
+        Join us on slack →
       </a>
     </div>
 	</div>
