@@ -63,7 +63,7 @@ export const HomeComponent = (props: any) => {
         secret value.</li>
 				<li>
         This test app sends any secret found to an API that sends the
-        secret to our public slack <span className="text-white"> securelog-rsc-notifications channel</span>. This is just an example of a good
+        secret to our public slack <span className="text-white"> securelog-rsc-notifications</span> channel. This is just an example of a good
         usecase for this component message.
         </li>
         <li>Join us on <a href="#https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw" className="text-[#F5BE58]" target="_blank">slack</a>.</li>
@@ -74,7 +74,7 @@ export const HomeComponent = (props: any) => {
 
 const App = () => (
   <div className="relative flex flex-col p-8 sm:p-20">
-    <h1 className="text-3xl font-semibold mb-6">Securelog RSC Test</h1>
+    <h1 className="text-3xl font-semibold mb-6">✨ Securelog RSC Test</h1>
     <HomeComponent />
     <div className="text-gray-400 mt-10">
       <a
