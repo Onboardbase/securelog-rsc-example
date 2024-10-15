@@ -1,5 +1,5 @@
 {
-  "name": "my-test-app",
+  "name": "securelog-rsc-test-app",
   "version": "1.0.0",
   "description": "A simple app to test SecureLogContainer",
   "main": "src/index.tsx",
