@@ -50,20 +50,20 @@ export const HomeComponent = (props: any) => {
         handleSecretsFound(result);
       }}
     >
-      <div className="text-gray-400 mb-6 border border-dashed border-gray-500/25 rounded-lg p-4 break-words break-all">
+      <div className="text-gray-400 mb-6 border border-dashed border-gray-500/25 rounded-lg p-3 break-words break-all">
         This is a test anthropic secret
         <span className="text-[#F5BE58] ml-2">
         sk-ant-api03-ha5kz3GnNTiS9ScbDD0Xuf1BAleGb8Xj8wMZnTZYaioVPtxPV6wcBPYtCKYor2z8JE1gQ6sUXBj0enoln2wjuQ-lI7F-wAA{" "}
         </span>
       </div>
       <ol
-				className="list-inside list-decimal text-sm text-center sm:text-left text-gray-400 my-5 space-y-3"
+				className="list-inside list-decimal text-sm text-left text-gray-400 my-5 space-y-3"
 			>
 				<li>Secret masking is enabled for this secret hence why you can't see the
         secret value.</li>
 				<li>
         This test app sends any secret found to an API that sends the
-        secret to our <span className="text-white">public slack securelog-exam channel</span>. This is just an example of a good
+        secret to our public slack <span className="text-white"> securelog-rsc-notifications channel</span>. This is just an example of a good
         usecase for this component message.
         </li>
         <li>Join us on <a href="#https://join.slack.com/t/onboardbase-community/shared_invite/zt-1hqckrw8l-~RjaGExoczIk7e0X_4ZiWw" className="text-[#F5BE58]" target="_blank">slack</a>.</li>
@@ -74,7 +74,7 @@ export const HomeComponent = (props: any) => {
 
 const App = () => (
   <div className="relative flex flex-col p-8 sm:p-20">
-    <h1 className="text-3xl font-semibold mb-6">Securelog React Component</h1>
+    <h1 className="text-3xl font-semibold mb-6">Securelog RSC Test</h1>
     <HomeComponent />
     <div className="text-gray-400 mt-10">
       <a
